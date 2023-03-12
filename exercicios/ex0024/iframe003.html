@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque accusamus veniam quibusdam aspernatur excepturi quae assumenda corrupti, exercitationem iure totam tempore in, numquam beatae perspiciatis odit dolores. Obcaecati, molestias fugit.</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque magni, dolorem voluptas est possimus veritatis dolorum voluptates consequatur eveniet adipisci. Esse voluptatem laudantium quasi quam magnam error rerum, dolores facere.</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque magni, dolorem voluptas est possimus veritatis dolorum voluptates consequatur eveniet adipisci. Esse voluptatem laudantium quasi quam magnam error rerum, dolores facere.</p><img src='imagens/cursoemvideo.png'>">
+        <p>Infelizmente seu navegador não é compativel com isso</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dolorum, ipsam numquam consequatur error fuga quis neque eos dolore eum nesciunt est magnam maxime placeat laudantium natus dicta quasi eaque! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint dolor quae culpa. Praesentium reprehenderit id assumenda! Hic laborum, qui quaerat rerum temporibus corrupti et rem repellendus ad voluptas ex quos!</p>
+
+</body>
+</html>
